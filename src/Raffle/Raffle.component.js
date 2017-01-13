@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Winners from './components/winners'
 
 class Raffle extends Component {
 
@@ -12,6 +13,7 @@ class Raffle extends Component {
 			<div className="raffle">
 				<h1>Raffle</h1>
 				<div onClick={this.handleClick} >Click Me</div>
+				<Winners />
 			</div>
 		);
 	}
