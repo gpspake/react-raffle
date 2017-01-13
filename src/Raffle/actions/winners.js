@@ -1,7 +1,6 @@
-export const addToWinners = (item) => {
-	console.log('adding item:', item);
+export const addToWinners = (contestant) => {
 	return {
 		type: 'add',
-		item
+		contestant
 	};
 }

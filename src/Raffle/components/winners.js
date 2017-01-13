@@ -11,8 +11,8 @@ class Winners extends Component {
 		}
 	}
 	render() {
-		const winnerList = this.props.winners.map((item, idx) => {
-			return <li key={idx}>{item}</li>;
+		const winnerList = this.props.winners.map((contestant, idx) => {
+			return <li key={idx}>{contestant}</li>;
 		});
 		return (
 			<div className="Winners">
